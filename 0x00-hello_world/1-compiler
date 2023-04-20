@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc "$CFILE" -co > "$CFILE"
+gcc -co "$CFILE" > "$CFILE"
