@@ -1,10 +1,11 @@
-/*Input header file*/
 #include <stdio.h>
-/*Create main function*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ **/
 int main(void)
 {
-	/*write a string to standard output*/
-	puts("Programming is like building a multilingual puzzle");
-	/*mark end of programme*/
+	puts("\"Programming is like building a multilingual puzzle");
 		return (0);
 }
