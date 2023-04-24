@@ -1,16 +1,10 @@
+/*Input header file*/
 #include <stdio.h>
-
-/**
- *main-Entry point
- *
- *return-Always 0 (Success)
- */
- 
+/*Create main function*/
 int main(void)
 {
-	
-	
-	char(str)[]="Programming is like building a multilingual puzzle\n";
-	puts(str);
-	*return (0);
+	/*write a string to standard output*/
+	puts("Programming is like building a multilingual puzzle");
+	/*mark end of programme*/
+		return (0);
 }
