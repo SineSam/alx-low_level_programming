@@ -1,11 +1,2 @@
-#include <stdio.h>
-/**
-*main - entry point
-*
-*Return: 0 is success, non-zero is failure
-**/
-int main(void)
-{
-gcc -S $CFILE -o $CFILE.s;
-	return (0);
-}
+#!/bin/bash
+gcc -S $CFILE -o $CFILE.s
