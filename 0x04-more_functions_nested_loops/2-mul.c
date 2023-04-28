@@ -5,7 +5,7 @@
  *
  * @a: first digit to be multiplied
  *
- * @b second integers to be multiplied
+ * @b: second integers to be multiplied
  *
  * Return: (a * b)
  */
