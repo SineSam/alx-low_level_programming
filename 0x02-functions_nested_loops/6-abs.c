@@ -3,6 +3,8 @@
 /**
  * _abs - computes the absolute value of an integer
  *
+ * @i: input integer
+ *
  * Return: Always 0 (success)
  */
 
