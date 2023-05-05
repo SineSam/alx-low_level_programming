@@ -10,13 +10,12 @@
 void reverse_array(int *a, int n)
 {
 	int i;
+	int j;
 
-	i = 0;
-	while (n[i] != '\0')
+	for (i = 0; i < n; i++)
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
-			n[i] = n[i] - 32;
-		i++;
+		j = a[i];
+		a[i] = a[n];
+		a[n] = j;
 	}
-	return (n);
 }
