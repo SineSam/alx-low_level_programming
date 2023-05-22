@@ -4,26 +4,28 @@
 #include "dog.h"
 
 /**
- * init_dog - initialises a variable of type structure dog
- * @d: pointer to structure dog
- * @name: name to initialise
- * @age: age to initialise
- * @owner: owner to initalise
+ * struct dog - attributes of dog
+ * @name: dog name
+ * @age: age of dog
+ * @owner: owner of dog
  */
 
-struct dog{
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
 };
 
-void init_dog(struct dog *d, char *name, float age, char *owner)
-{
-	if (d == NULL)
-		d = malloc(sizeof(struct dog));
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
-}
+/**
+ * dog_t - typedef for dog structure
+ */
+
+typedef struct dog dog_t;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 
 #endif
