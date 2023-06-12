@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * apprend_text_to_file - appends text at the end of a file
+ * append_text_to_file - appends text at the end of a file
  * @filename: pointer to file to be appended
  * @text_content: pointer to string to append
  * Return: 1 on success, -1 if file fails or filename is NULL or
