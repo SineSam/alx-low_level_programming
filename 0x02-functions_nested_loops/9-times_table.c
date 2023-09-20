@@ -6,7 +6,11 @@ void times_table(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j <= 9; j++)
+		_putchar(48);
+		_putchar(44);
+		_putchar(32);
+
+		for (j = 1; j <= 9; j++)
 		{
 			mul = i * j;
 			if (mul <= 9)
