@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * times_table - calculates the 9 times table
+ * Return: void
+ */
 void times_table(void)
 {
 	int i, j, mul;
