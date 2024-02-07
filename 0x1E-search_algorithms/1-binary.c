@@ -7,9 +7,9 @@
  * Return: void
  */
 
-void print_array(int *array, int size)
+void print_array(int *array, size_t size)
 {
-	int i;
+	size_t i;
 
 	if (array == NULL || size == 0)
 	{
@@ -42,12 +42,12 @@ int binary_search(int *array, size_t size, int value)
 	int high = size - 1;
 	int mid;
 
-	if (array == NULL || size == 0 || array[0] > 0)
+	if (array == NULL || size == 0)
 		return (-1);
 
 	while (low <= high)
 	{
-		mid = (low + high) / 2;
+		mid = low + (high - low) / 2;
 		print_array(&array[low], (high - low) + 1);
 
 		if (array[mid] > value)
